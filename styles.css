@@ -1,0 +1,126 @@
+body {
+  margin: 50px auto;
+  font-family: "Dosis", sans-serif;
+}
+
+h1,
+h2,
+p.date,
+.current-temp-number,
+.real-feel,
+.weather-forecast,
+.info-weather,
+.warm,
+.cold {
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+p.date {
+  margin: 0;
+}
+
+p.date {
+  font-size: 14px;
+}
+
+h2,
+.current-temp-text {
+  line-height: 0.8;
+  margin: 25px auto;
+}
+
+h2 .current-temp-number {
+  line-height: 3;
+}
+
+span.current-temp,
+.rain-humidity-wind,
+.sunrise-text,
+.week-days,
+.max-temp {
+  font-weight: bold;
+}
+
+a.celsius,
+a.farenheit {
+  transition: all 200ms ease-in-out;
+  color: black
+}
+
+a.celsius:hover,
+a.farenheit:hover {
+  background: rgba(7, 104, 159, 0.3);
+  padding: 0 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+i.current-temp-icon,
+.warm,
+.max-temp {
+  color: #f0b114;
+}
+
+i.current-temp-icon {
+  font-size: 100px;
+  line-height: 1;
+}
+
+.real-feel {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.card {
+  background: rgba(7, 104, 159, 0.1);
+  border-radius: 10px;
+}
+
+.clock {
+  border-radius: 50%;
+  display: block;
+  margin: 50px auto 50px;
+  max-width: 300px;
+  opacity: 65%;
+}
+
+.indications,
+.sunrise-sunset,
+.week-days {
+  font-size: 20px;
+}
+
+.indications {
+  margin-top: 20px;
+  padding: 50px 0 25px;
+}
+
+.rain-humidity-wind,
+.sunrise-text,
+.sunset-text {
+  text-align: right;
+}
+
+.sunrise-sunset {
+  margin: 25px 0;
+}
+
+.weather-forecast {
+  margin: 30px 0 10px;
+}
+
+.warm,
+.cold {
+  font-size: 50px;
+}
+
+.cold,
+.min-temp {
+  color: #07689f;
+}
