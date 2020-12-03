@@ -82,12 +82,12 @@ i.current-temp-icon {
   border-radius: 10px;
 }
 
-.clock {
+.snow {
   border-radius: 50%;
   display: block;
   margin: 50px auto 50px;
-  max-width: 300px;
-  opacity: 65%;
+  max-width: 400px;
+  opacity: 100%;
 }
 
 .indications,
