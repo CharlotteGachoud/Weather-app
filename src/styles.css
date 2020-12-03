@@ -124,3 +124,10 @@ i.current-temp-icon {
 .min-temp {
   color: #07689f;
 }
+.code-by{
+  text-align: center;
+  margin: 5px 850px 0 auto;
+}
+.open-source-link{
+  font-weight: 700;
+}
